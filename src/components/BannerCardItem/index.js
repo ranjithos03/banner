@@ -3,10 +3,10 @@ import './index.css'
 
 const BannerCardItem = props => {
   const {bannerDetails} = props
-  const {headerText, description, className} = bannerDetails
+  const {headerText, description} = bannerDetails
 
   return (
-    <li className={'${className} banner-card-item'}>
+    <li className={`${className} banner-card-item`}>
       <div>
         <h1 className="heading">{headerText}</h1>
         <p className="description">{description}</p>
